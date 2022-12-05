@@ -59,13 +59,15 @@ namespace Exercise4
                 }
             }
         }
-        static vooid Main(string[] args)
+        static void Main(string[] args)
         {
             Stack s = new Stack();
             while (true)
             {
                 Console.WriteLine();
                 Console.WriteLine("\n***Stack Menu***\n");
+                Console.WriteLine("1. POP ");
+
             }
         }
     }
