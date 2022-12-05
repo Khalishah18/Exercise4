@@ -69,6 +69,8 @@ namespace Exercise4
                 Console.WriteLine("1. POP ");
                 Console.WriteLine("2. PUSH ");
                 Console.WriteLine("3. DISPLAY ");
+                Console.WriteLine("4. EXIT ");
+
 
             }
         }
