@@ -67,6 +67,8 @@ namespace Exercise4
                 Console.WriteLine();
                 Console.WriteLine("\n***Stack Menu***\n");
                 Console.WriteLine("1. POP ");
+                Console.WriteLine("2. PUSH ");
+                Console.WriteLine("3. DISPLAY ");
 
             }
         }
