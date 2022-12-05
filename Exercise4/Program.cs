@@ -10,7 +10,7 @@ namespace Exercise4
     {
         public int info;
         public node next;
-
+        
         public node(int i, node n)
         {
             info = i;
@@ -44,7 +44,7 @@ namespace Exercise4
 
             fresh.next = top;
             top = fresh;
-            Console.WriteLine("\n" + element + "pushed");
+            Console.WriteLine("\n" + element + " pushed");
         }
         public void display()
         {
@@ -61,6 +61,9 @@ namespace Exercise4
         }
         static void Main(string[] args)
         {
+            int[] lis;
+            lis = new int[85];
+
             Stack s = new Stack();
             while (true)
             {
