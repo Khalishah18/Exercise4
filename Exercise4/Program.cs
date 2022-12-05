@@ -36,5 +36,15 @@ namespace Exercise4
             Console.WriteLine("\n The poped elements is: " + top.info);
             top = top.next; //make top point to the next node is squence
         }
+
+        public void push(int element)
+        {
+            node fresh;
+            fresh = new node(element, null);
+
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed");
+        }
     }
 }
