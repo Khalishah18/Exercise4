@@ -88,6 +88,14 @@ namespace Exercise4
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
 
 
 
