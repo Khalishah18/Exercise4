@@ -83,6 +83,11 @@ namespace Exercise4
                         }
                         s.pop();
                         break;
+                    case '2':
+                        Console.Write("\nEnter a number : ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        s.push(num);
+                        break;
 
 
 
