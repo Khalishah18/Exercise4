@@ -17,4 +17,5 @@ namespace Exercise4
             next = n;
         }
     }
+
 }
