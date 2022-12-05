@@ -70,7 +70,17 @@ namespace Exercise4
                 Console.WriteLine("2. PUSH ");
                 Console.WriteLine("3. DISPLAY ");
                 Console.WriteLine("4. EXIT ");
-
+                Console.WriteLine("\nEnter your choice: ");
+                string Input = Console.ReadLine();
+                char ch = Convert.ToChar(Input == "" ? "0" : Input);
+                switch (ch)
+                {
+                    case '1':
+                        Console.Write("\nEnter a number : ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        s.push(num);
+                        break;
+                }
 
             }
         }
