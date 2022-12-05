@@ -76,10 +76,16 @@ namespace Exercise4
                 switch (ch)
                 {
                     case '1':
-                        Console.Write("\nEnter a number : ");
-                        int num = Convert.ToInt32(Console.ReadLine());
-                        s.push(num);
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack empty");
+                            break;
+                        }
+                        s.pop();
                         break;
+
+
+
                 }
 
             }
